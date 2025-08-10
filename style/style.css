@@ -38,12 +38,12 @@ nav-tags {
     background-color: #00023d;
 }
 .icons{
-    height: 4px;
-    width: 4px;
+    height: auto;
+    width: 40px;
 }
 
 #logo {
-    height: 5px;
-    width: 5px;
+    height: auto;
+    width: 40px;
 }
 
