@@ -5,6 +5,15 @@
 #hero-section{
     top: 0;
 }
+#nav-bar{
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 3px 10px 3px;
+}
+nav-tags {
+    text-align: center;
+}
 #nav-tags ul{
     list-style-type: none;
     margin: 0;
@@ -14,13 +23,16 @@
     display: inline;
 }
 #contact-me {
-    display: inline;
+    display: inline-block;
+    height: 5px;
+    width: 15px;
+    text-align: center;
     margin: 0;
 }
 #contact-me a{
     display: block;
     padding: 2px;
-    background-color: blue;
+    background-color: #00023d;
 }
 #about-me{
 
