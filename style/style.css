@@ -1,11 +1,14 @@
 .body{
     height: 100px;
     width: 100px;
+    background-color: #210635;
 }
 #hero-section{
     top: 0;
 }
 #nav-bar{
+    display: flex;
+
     border: none;
     width: 100%;
     height: 40px;
@@ -34,54 +37,13 @@ nav-tags {
     padding: 2px;
     background-color: #00023d;
 }
-#about-me{
+.icons{
+    height: 4px;
+    width: 4px;
+}
 
+#logo {
+    height: 5px;
+    width: 5px;
 }
-#profile-picture{
 
-}
-#profile-statement{
-
-}
-#name{
-
-}
-#statement{
-
-}
-#projects{
-
-}
-.project-cards{
-
-}
-#one{
-
-}
-#two{
-    
-}
-#three{
-    
-}
-#blogs{
-
-}
-.blog-cards{
-
-}
-#blog-one{
-
-}
-#blog-two{
-    
-}
-#footer{
-
-}
-#contact-me{
-
-}
-.contact-cards{
-
-}
