@@ -13,9 +13,14 @@
 #nav-tags li{
     display: inline;
 }
-#contact-me{
+#contact-me {
     display: inline;
     margin: 0;
+}
+#contact-me a{
+    display: block;
+    padding: 2px;
+    background-color: blue;
 }
 #about-me{
 
