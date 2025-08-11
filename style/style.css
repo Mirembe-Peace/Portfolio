@@ -78,12 +78,10 @@ button:hover{
     display: inline-block;
     width:250px;
     height: auto;
-    margin-top: 160px;
     margin-left: 20px;
 }
 #profile-card{
     margin-left:120px;
-    bottom: 80px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 400px;
