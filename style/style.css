@@ -69,13 +69,17 @@ button:hover{
 #about-me{
     align-items: center;
     padding: 20px 40px;
+    width: 80%;
+    height: auto;
 }
 .profile-picture{
     display: inline-block;
     width:250px;
     height: auto;
+    margin-left: 60px;
 }
 #profile-card{
+    margin-right: 60px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 400px;
