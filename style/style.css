@@ -107,6 +107,7 @@ button:hover{
     height: auto;
     width: 100%;
     display: block;
+    padding: 10px 24px;
     z-index:10;
 }
 .project-title{
