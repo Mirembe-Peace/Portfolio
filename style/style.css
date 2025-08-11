@@ -72,18 +72,20 @@ button:hover{
     width:250px;
     height: auto;
 }
+#about-me{
+    align-items: center;
+}
 
 #profile-card{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    width: 400px;
+    width: 600px;
     height: auto;
     border: 0px;
     border-radius: 16px;
     background-color: rgba(255,255,255,0.1);
     align-items: center;
     z-index: 10;
-    margin-right: 20px;
     color:#FCFCFC;
 }
 .name {
@@ -92,7 +94,7 @@ button:hover{
     font-size: 20px;
     font-weight: 800;
 }
-.profile-desciption{
+.profile-description{
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
