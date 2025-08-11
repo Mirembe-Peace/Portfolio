@@ -108,13 +108,8 @@ button:hover{
 }
 #projects{
     background-color: #be7accac;
-    height: auto;
     width: auto;
-    display: block;
-    padding: 10px 10px;
-    z-index:10;
-    align-items: center;
-    justify-content: center;
+    padding: 40px 0;
 }
 .project-title{
     text-align: center;
@@ -130,17 +125,26 @@ button:hover{
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
 }
-.slide-wrapper{
-    overflow: hidden;
-    max-width: 120px;
-    margin: 0 70px 55px;
+.container .swiper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-.card-list .card-item{
+.slide-wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.card-list{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.card-item{
     color: black;
-    width: 300px;
+    min-width: 300px;
     user-select: none;
     height: auto;
-    padding: 10px 24px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,12 +253,8 @@ footer{
     color:#00023d
 }
 @media (max-width: 768px) {
-    .slide-wrapper{
-        margin: 0 10px 40px;
-    }
-
-    .slide-wrapper .swipper-slide-button{
-        display: none;
+    .card-item {
+        min-width: 280px;
     }
 }
 

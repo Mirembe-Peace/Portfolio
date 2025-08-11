@@ -1,13 +1,14 @@
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabCursor: true,
+  slidePerView: AuthenticatorAssertionResponse,
   spaceBetween:30,
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
-    dynamicBullets: true
+    dynamicBullets: true,
   },
 
   // Navigation arrows
@@ -16,16 +17,4 @@ const swiper = new Swiper('.slider-wrapper', {
     prevEl: '.swiper-button-prev',
   },
 
-  //responsive break point
-  breakpoints: {
-    0:{
-        slidesPerview: 1
-    },
-    768:{
-        slidesPerview: 2
-    },
-    1024:{
-        slidesPerview: 3
-    }
-  }
 });
