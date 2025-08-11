@@ -68,7 +68,7 @@ button:hover{
 }
 #about-me{
     display: flex;
-    top:40%;
+    top:80%;
     align-items: flex-end; 
     justify-content: center; 
     gap: 40px; 
