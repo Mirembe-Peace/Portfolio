@@ -129,12 +129,20 @@ footer{
     font-size: 16px;
     font-weight: 600;
     color:#FCFCFC;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.platform-names:hover{
+    color:#bf7acc; 
 }
 .contact-cards{
     display: flex;
     justify-content: space-between; 
     align-items: center; 
     padding: 5px 10px;
+}
+.icon-background{
+    gap: 5px;
 }
 
 
