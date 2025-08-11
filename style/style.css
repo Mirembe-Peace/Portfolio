@@ -68,7 +68,6 @@ button:hover{
 }
 #about-me{
     display: flex;
-    top:80%;
     align-items: flex-end; 
     justify-content: center; 
     gap: 40px; 
@@ -77,6 +76,7 @@ button:hover{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 .profile-picture{
     display: inline-block;
