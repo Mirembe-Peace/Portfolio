@@ -28,6 +28,7 @@ header{
 .nav-links li a:hover{
     background-color:#68c5f0;
     padding: 10px 24px;
+    border-radius: 16px;
 }
 
 li, a, button{
