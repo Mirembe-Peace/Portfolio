@@ -10,8 +10,17 @@ header{
     padding:30px 10%;
     background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED )
 }
-li{
+nav li{
     color:#00023d;
+    padding: 0px 20px;
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover{
+    background-color:#68c5f0;
 }
 
 li, a, button{
@@ -28,6 +37,10 @@ button{
     border-radius:8px;
     background-color: #00023d;
     color:#A0D4ED
+}
+
+button:hover{
+    background-color:#020688;
 }
 .icons{
     height: auto;
