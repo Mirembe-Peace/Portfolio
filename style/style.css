@@ -142,7 +142,7 @@ footer{
     padding: 5px 10px;
     gap: 100px;
 }
-.icon-background:last-child{
+.icon-background:first-child{
     margin-left: 60px;
 }
 
