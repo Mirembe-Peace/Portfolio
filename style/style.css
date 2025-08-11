@@ -131,20 +131,24 @@ footer{
     color:#FCFCFC;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 2px;
+    text-decoration: none;
 }
 .platform-names:hover{
     color:#bf7acc; 
 }
 .contact-cards{
     display: flex;
-    justify-content: flex-end; 
+    justify-content: center; 
     align-items: center; 
-    padding: 5px 10px;
-    gap: 100px;
-    left: 80%;
+    padding: 10px 0;
+    gap: 60px;
 }
 
+.icon-background {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
 
 
 
