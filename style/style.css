@@ -86,9 +86,13 @@ button:hover{
     border-radius: 16px;
     background-color: rgba(255,255,255,0.1);
     padding: 10px 20px;
+    backdrop-filter: blur(30px);
     align-items: center;
     z-index: 10;
     color:#FCFCFC;
+}
+.project-button{
+    text-decoration: none;
 }
 .name {
     text-align: center;
@@ -107,7 +111,7 @@ button:hover{
     height: auto;
     width: 100%;
     display: block;
-    padding: 10px 24px;
+    padding: 10px 10px;
     z-index:10;
 }
 .project-title{
@@ -124,6 +128,53 @@ button:hover{
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
     display: block;
+}
+.card-list .card-item{
+    color: black;
+    width: 400px;
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 12px;
+    background-image: linear-gradient(#D9D9D9, #A0D4ED);
+
+}
+.card-list .card-item .project-image{
+    width: 300px;
+    height:300px;
+    border-radius: 16px;
+    border: 0px;
+    margin-bottom:40px;
+    padding:4px;
+}
+.card-list .card-item .project-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin:14px 0 40px;
+}
+.card-list .card-item .project-description{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-list .card-item .project-buttons{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color:#00023d;
+    color:#FCFCFC;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.card-list .card-item .project-buttons:hover{
+    background-color:#05085e;
 }
 footer{
     background-color: #420D4B;
@@ -166,6 +217,7 @@ footer{
     padding: 10px 0;
     gap: 60px;
     left: 80%;
+    margin-left: auto;
 }
 
 .icon-background {
