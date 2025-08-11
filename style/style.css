@@ -141,10 +141,9 @@ footer{
     align-items: center; 
     padding: 5px 10px;
     gap: 100px;
-    margin-left: 100px;
 }
-.icon-background{
-    gap: 25px;
+.icon-background:last-child{
+    margin-left: 20px;
 }
 
 
