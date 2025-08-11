@@ -8,7 +8,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:30px 10%;
-    background-image: linear-gadient(to right, #A0D4ED, #FCFCFC, #A0D4ED )
+    background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED )
 }
 li{
     color:#00023d;
