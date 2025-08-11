@@ -18,8 +18,6 @@ header{
 .nav-links li{
     display: inline-block;
     padding: 0px 20px;
-    font-size: 20px;
-    font-weight: 800;
     color:#00023d;
 }
 
@@ -35,6 +33,8 @@ li, a, button{
     display: inline;
     text-decoration: none;
     font-family: "Google Sans Code", monospace;
+    font-size: 16px;
+    font-weight: 500;
 }
 button{
     display: block;
@@ -45,8 +45,6 @@ button{
     color:#A0D4ED;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: 16px;
-    font-weight: 500;
 }
 
 button:hover{
