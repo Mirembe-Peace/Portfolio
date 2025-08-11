@@ -38,3 +38,7 @@ button{
     display: inline-block;
 }
 
+.profile-picture{
+    width:150px;
+    height: auto;
+}
