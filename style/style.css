@@ -66,18 +66,18 @@ button:hover{
     display: inline-block;
     margin-right: auto;
 }
-
+#about-me{
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
 .profile-picture{
     display: inline-block;
     width:250px;
     height: auto;
 }
-#about-me{
-    align-items: center;
-}
-
 #profile-card{
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 600px;
     height: auto;
@@ -95,7 +95,7 @@ button:hover{
     font-weight: 800;
 }
 .profile-description{
-    text-align: center;
+    text-align: justify;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 300;
