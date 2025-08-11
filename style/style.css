@@ -79,7 +79,7 @@ button:hover{
 #profile-card{
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    width: 600px;
+    width: 100px;
     height: auto;
     border: 0px;
     border-radius: 16px;
