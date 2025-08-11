@@ -137,12 +137,13 @@ footer{
 }
 .contact-cards{
     display: flex;
-    justify-content: space-between; 
+    justify-content: flex-end; 
     align-items: center; 
     padding: 5px 10px;
+    gap: 100px;
 }
 .icon-background{
-    gap: 5px;
+    gap: 15px;
 }
 
 
