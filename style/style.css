@@ -5,7 +5,7 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding:30px 10%;
     background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED );
@@ -27,6 +27,7 @@ header{
 
 .nav-links li a:hover{
     background-color:#68c5f0;
+    padding: 10px 24px;
 }
 
 li, a, button{
