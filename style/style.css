@@ -104,3 +104,6 @@ footer{
     background-color: #420D4B;
     align-items: center;
 }
+.contact-cards{
+    display: inline-block;
+}
