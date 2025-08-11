@@ -142,6 +142,7 @@ footer{
     align-items: center; 
     padding: 10px 0;
     gap: 60px;
+    left: 80%;
 }
 
 .icon-background {
