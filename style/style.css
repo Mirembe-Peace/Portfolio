@@ -68,14 +68,12 @@ button:hover{
 }
 #about-me{
     align-items: center;
-    margin: auto;
-    padding: 20px;
+    padding: 20px 40px;
 }
 .profile-picture{
     display: inline-block;
     width:250px;
     height: auto;
-    margin: right 40px;
 }
 #profile-card{
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
