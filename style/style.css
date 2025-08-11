@@ -80,7 +80,7 @@ button:hover{
     height: auto;
 }
 #profile-card{
-    margin-left:20px;
+    margin-left:60px;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 400px;
