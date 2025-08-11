@@ -107,8 +107,8 @@ button:hover{
     font-weight: 350;
 }
 #projects{
-    background-color: #be7accac;
-    width: auto;
+    background-color: #be7acc83;
+    width: 100%;;
     padding: 40px 0;
 }
 .project-title{
