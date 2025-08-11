@@ -72,6 +72,16 @@ button:hover{
     height: auto;
 }
 
+#profile-card{
+    width: 400px;
+    height: auto;
+    border: 0px;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0.5);
+    margin-left: 20px;
+    color:#FCFCFC;
+}
+
 footer{
     background-color: #420D4B;
     align-items: center;
