@@ -106,6 +106,20 @@ button:hover{
     background-color: #be7accac;
     height: auto;
     width: 100%;
+    display: block;
+    z-index:10;
+}
+.project-title{
+    text-align: center;
+    font-family: "Google Sans Code", monospace;
+    font-size: 30px;
+    font-weight: 300;
+    color:#FCFCFC;
+    border: 0;
+    border-radius: 8px;
+    background-color: #210635;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
+    display: block;
 }
 footer{
     background-color: #420D4B;
