@@ -13,12 +13,12 @@ header{
 
 .nav-links{
     list-style: none;
-    color:#00023d;
 }
 
 .nav-links li{
     display: inline-block;
     padding: 0px 20px;
+    color:#00023d;
 }
 
 .nav-links li a{
