@@ -114,6 +114,7 @@ button:hover{
     padding: 10px 10px;
     z-index:10;
     align-items: center;
+    justify-content: center;
 }
 .project-title{
     text-align: center;
