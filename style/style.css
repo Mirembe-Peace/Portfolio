@@ -112,9 +112,12 @@ button:hover{
 .project-title{
     text-align: center;
     font-family: "Google Sans Code", monospace;
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     color:#FCFCFC;
+    padding: 10px 24px;
+    width: 40px;
+    height: auto;
     border: 0;
     border-radius: 8px;
     background-color: #210635;
