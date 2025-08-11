@@ -67,7 +67,11 @@ button:hover{
     margin-right: auto;
 }
 #about-me{
-    padding: 20px 40px;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center; 
+    gap: 40px; 
+    padding: 20px;
     width: 80%;
     height: auto;
     margin-left: auto;
@@ -77,11 +81,8 @@ button:hover{
     display: inline-block;
     width:250px;
     height: auto;
-    margin-left: 20px;
 }
 #profile-card{
-    margin-left:120px;
-    bottom:20%;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
     display: inline-block;
     width: 400px;
