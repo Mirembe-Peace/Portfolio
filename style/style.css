@@ -141,7 +141,6 @@ button:hover{
 }
 .card-item{
     color: black;
-    min-width: 300px;
     user-select: none;
     height: auto;
     padding: 20px;
