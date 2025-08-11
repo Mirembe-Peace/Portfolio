@@ -24,6 +24,7 @@ li, a, button{
 button{
     display: block;
     padding: 10px 24px;
+    border: 0px;
     border-radius:8px;
     background-color: #00023d;
     color:#A0D4ED
@@ -36,7 +37,7 @@ button{
 
 .logo {
     height: auto;
-    width: 60px;
+    width: 50px;
     display: inline-block;
 }
 
