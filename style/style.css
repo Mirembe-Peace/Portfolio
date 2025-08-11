@@ -25,7 +25,7 @@ header{
     transition: all 0.3s ease 0s;
 }
 
-.nav-link li a:hover{
+.nav-links li a:hover{
     background-color:#68c5f0;
 }
 
