@@ -1,8 +1,8 @@
 const swiper = new Swiper('.swiper', {
   loop: true,
   grabCursor: true,
-  slidePerView: AuthenticatorAssertionResponse,
-  spaceBetween:30,
+  slidePerView: 'auto',
+  spaceBetween: 20,
 
   // If we need pagination
   pagination: {
