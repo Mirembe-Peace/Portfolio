@@ -8,18 +8,24 @@ header{
     justify-content: space-between;
     align-items: center;
     padding:30px 10%;
-    background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED )
+    background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED );
 }
-nav li{
+
+nav-links{
+    list-style: none;
     color:#00023d;
+}
+
+nav-links li{
+    display: inline-block;
     padding: 0px 20px;
 }
 
-nav li a{
+nav-links li a{
     transition: all 0.3s ease 0s;
 }
 
-nav li a:hover{
+nav-link li a:hover{
     background-color:#68c5f0;
 }
 
@@ -36,7 +42,9 @@ button{
     border: 0px;
     border-radius:8px;
     background-color: #00023d;
-    color:#A0D4ED
+    color:#A0D4ED;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 button:hover{
