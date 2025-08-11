@@ -7,7 +7,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding:30px 10%;
+    padding:20px 10%;
     background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED );
 }
 
