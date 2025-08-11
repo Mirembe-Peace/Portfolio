@@ -131,7 +131,6 @@ footer{
     color:#FCFCFC;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 2px;
 }
 .platform-names:hover{
     color:#bf7acc; 
@@ -143,6 +142,9 @@ footer{
     padding: 5px 10px;
     gap: 100px;
     margin-left: 300px;
+}
+.icon-background{
+    padding: 10px 24px; 
 }
 
 
