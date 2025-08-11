@@ -130,9 +130,15 @@ button:hover{
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
 }
+.slide-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
 .card-list .card-item{
     color: black;
-    width: 400px;
+    user-select: none;
+    height: auto;
     padding: 10px 24px;
     display: flex;
     flex-direction: column;
@@ -227,7 +233,29 @@ footer{
     align-items: center;
     gap: 8px; 
 }
+.slide-wrapper .swiper-pagination-bullet{
+    background:#FCFCFC;
+    height: 15px;
+    width: 15px;
+}
 
+.slide-wrapper .swipper-slide-button{
+    color:#FCFCFC;
+    margin-top: -50px;
+    transition: all 0.3s ease 0s;
+}
+.slide-wrapper .swipper-slide-button:hover{
+    color:#00023d
+}
+@media (max-width: 768px) {
+    .slide-wrapper{
+        margin: 0 10px 40px;
+    }
+
+    .slide-wrapper .swipper-slide-button{
+        display: none;
+    }
+}
 
 
 
