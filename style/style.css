@@ -109,7 +109,7 @@ button:hover{
 #projects{
     background-color: #be7accac;
     height: auto;
-    width: 100%;
+    width: auto;
     display: block;
     padding: 10px 10px;
     z-index:10;
