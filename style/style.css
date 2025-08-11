@@ -24,6 +24,8 @@ li, a, button{
 button{
     display: block;
     padding: 2px;
+    border: none;
+    border-radius:8px;
     background-color: #00023d;
     color:#A0D4ED
 }
@@ -39,6 +41,6 @@ button{
 }
 
 .profile-picture{
-    width:150px;
+    width:50px;
     height: auto;
 }
