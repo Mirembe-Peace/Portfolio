@@ -134,8 +134,6 @@ footer{
     display: flex;
     align-items: flex-end; 
     justify-content: center; 
+    gap: 30px;
 }
 
-.icon-backgrounds{
-    padding: 0px 40px;
-}
