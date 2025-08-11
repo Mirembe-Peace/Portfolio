@@ -54,12 +54,6 @@ button{
 button:hover{
     background-color:#020688;
 }
-.icons{
-    height: auto;
-    width: 40px;
-    display: inline-block;
-}
-
 .logo {
     height: auto;
     width: 60px;
@@ -112,6 +106,24 @@ footer{
     background-color: #420D4B;
     align-items: center;
 }
+.icons{
+    height: auto;
+    width: 40px;
+    background-color:#FCFCFC;
+}
+.contact-me{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color:#FCFCFC;
+    display: block;
+}
+.platform-names{
+    float: left;
+}
 .contact-cards{
-    display: inline-block;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center; 
 }
