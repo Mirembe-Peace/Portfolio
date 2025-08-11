@@ -11,21 +11,21 @@ header{
     background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED );
 }
 
-nav-links{
+.nav-links{
     list-style: none;
     color:#00023d;
 }
 
-nav-links li{
+.nav-links li{
     display: inline-block;
     padding: 0px 20px;
 }
 
-nav-links li a{
+.nav-links li a{
     transition: all 0.3s ease 0s;
 }
 
-nav-link li a:hover{
+.nav-link li a:hover{
     background-color:#68c5f0;
 }
 
