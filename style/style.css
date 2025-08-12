@@ -1,263 +1,363 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
     background-image: linear-gradient(#210635, #61129B);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
-header{
+
+header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding:20px 10%;
-    height: 50px;
-    background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED );
+    padding: 15px 5%;
+    height: auto;
+    background-image: linear-gradient(to right, #A0D4ED, #FCFCFC, #A0D4ED);
+    position: relative;
 }
 
-.nav-links{
+.mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #00023d;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-links li{
-    display: inline-block;
-    padding: 0px 20px;
-    color:#00023d;
+.nav-links li {
+    padding: 0 15px;
+    color: #00023d;
 }
 
-.nav-links li a{
+.nav-links li a {
     transition: all 0.3s ease 0s;
+    color: #00023d;
+    text-decoration: none;
 }
 
-.nav-links li a:hover{
-    background-color:#68c5f0;
-    padding: 10px 24px;
+.nav-links li a:hover {
+    background-color: #68c5f0;
+    padding: 8px 16px;
     border-radius: 16px;
 }
 
-li, a, button{
-    display: inline;
+li, a, button {
     text-decoration: none;
     font-family: "Google Sans Code", monospace;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
-button{
-    margin-left: 20px;
-    display: block;
-    padding: 10px 24px;
-    border: 0px;
-    border-radius:8px;
+
+button {
+    margin-left: 15px;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 8px;
     background-color: #00023d;
-    color:#A0D4ED;
+    color: #A0D4ED;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
-button:hover{
-    background-color:#020688;
+button:hover {
+    background-color: #020688;
 }
+
 .logo {
     height: auto;
-    width: 60px;
-    display: inline-block;
-    margin-right: auto;
+    width: 50px;
 }
-#about-me{
+
+#about-me {
     display: flex;
-    align-items: flex-end; 
-    justify-content: center; 
-    gap: 40px; 
-    padding: 20px;
-    width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-}
-.profile-picture{
-    display: inline-block;
-    width:250px;
-    height: auto;
-}
-#profile-card{
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    width: 500px;
-    height: 50%;
-    border: 0px;
-    border-radius: 16px;
-    background-color: rgba(255,255,255,0.1);
-    padding: 10px 20px;
-    backdrop-filter: blur(30px);
+    flex-direction: column;
     align-items: center;
-    z-index: 10;
-    color:#FCFCFC;
+    gap: 20px;
+    padding: 20px 5%;
+    width: 90%;
+    margin: 30px auto 0;
 }
-.project-button{
-    text-decoration: none;
+
+.profile-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
 }
+
+#profile-card {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border: 0;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    backdrop-filter: blur(30px);
+    color: #FCFCFC;
+}
+
 .name {
     text-align: center;
     font-family: "Google Sans Code", monospace;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
-.profile-description{
+
+.profile-description {
     text-align: justify;
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 350;
+    line-height: 1.5;
 }
-#projects{
+
+#projects {
     background-color: #be7acc83;
-    width: 100%;;
-    padding: 40px 0;
+    width: 100%;
+    padding: 30px 0;
 }
-.project-title{
+
+.project-title {
     text-align: center;
     font-family: "Google Sans Code", monospace;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
-    color:#FCFCFC;
-    padding: 10px 24px;
-    width: 100px;
-    height: auto;
+    color: #FCFCFC;
+    padding: 8px 20px;
+    width: auto;
     border: 0;
     border-radius: 8px;
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
+    margin: 0 auto 20px;
     display: inline-block;
 }
-.container .swiper{
+
+.container .swiper {
     width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
 }
-.slide-wrapper{
+
+.slide-wrapper {
     width: 100%;
     overflow: hidden;
 }
-.card-list{
+
+.card-list {
     display: flex;
     width: 100%;
-    gap: 20px;
+    gap: 15px;
 }
-.card-item{
+
+.card-item {
     color: black;
     user-select: none;
     height: auto;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 0px;
+    border: 0;
     border-radius: 12px;
     background-image: linear-gradient(#D9D9D9, #A0D4ED);
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+}
 
-}
-.card-list .card-item .project-image{
-    width: 290px;
-    height:200px;
-    border-radius: 16px;
-    border: 0px;
+.card-item .project-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
+    border: 0;
     box-shadow: 0 0 5px 5px rgba(5, 4, 104, 0.2);
-    margin-bottom:20px;
-    padding:4px;
+    margin-bottom: 15px;
+    object-fit: cover;
 }
-.card-list .card-item .project-name{
+
+.card-item .project-name {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin:14px 0 40px;
+    margin: 10px 0 20px;
+    text-align: center;
 }
-.card-list .card-item .project-description{
+
+.card-item .project-description {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.card-list .card-item .project-buttons{
+
+.card-item .project-buttons {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 600;
-    padding: 10px 35px;
-    background-color:#00023d;
-    color:#FCFCFC;
-    border: 0px;
+    padding: 8px 25px;
+    background-color: #00023d;
+    color: #FCFCFC;
+    border: 0;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    text-align: center;
 }
-.card-list .card-item .project-buttons:hover{
-    background-color:#05085e;
+
+.card-item .project-buttons:hover {
+    background-color: #05085e;
 }
-footer{
+
+footer {
     background-color: #420D4B;
-    align-items: center;
-    padding: 20px 10%;
+    padding: 20px 5%;
+    text-align: center;
 }
-.icons{
+
+.icons {
     height: auto;
-    width: 40px;
-    background-color:#FCFCFC;
-    border: 0px;
+    width: 30px;
+    background-color: #FCFCFC;
+    border: 0;
     border-radius: 4px;
     padding: 2px;
 }
-.contact-me{
+
+.contact-me {
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 800;
-    color:#FCFCFC;
-    display: block;
+    color: #FCFCFC;
+    margin-bottom: 20px;
 }
-.platform-names{
-    float: right;
+
+.platform-names {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
-    color:#FCFCFC;
+    color: #FCFCFC;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    display: block;
+    margin-top: 5px;
 }
-.platform-names:hover{
-    color:#bf7acc; 
+
+.platform-names:hover {
+    color: #bf7acc;
 }
-.contact-cards{
+
+.contact-cards {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding: 10px 0;
-    gap: 60px;
-    left: 80%;
-    margin-left: auto;
 }
 
 .icon-background {
     display: flex;
     align-items: center;
-    gap: 8px; 
-}
-.slide-wrapper .swiper-pagination-bullet{
-    background:#FCFCFC;
-    height: 15px;
-    width: 15px;
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
-.slide-wrapper .swipper-slide-button{
-    color:#FCFCFC;
-    margin-top: -50px;
+.swiper-pagination-bullet {
+    background: #FCFCFC;
+    height: 10px;
+    width: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #FCFCFC;
     transition: all 0.3s ease 0s;
 }
-.slide-wrapper .swipper-slide-button:hover{
-    color:#00023d
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: #00023d;
 }
+
+/* Mobile Menu Styles */
 @media (max-width: 768px) {
+    .mobile-menu-toggle {
+        display: block;
+        z-index: 1000;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: #A0D4ED;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease;
+        z-index: 999;
+        padding-top: 70px;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-links li {
+        padding: 15px 0;
+    }
+
+    #contact-me {
+        margin: 20px 0 0;
+    }
+
+    #about-me {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profile-picture {
+        width: 150px;
+    }
+
     .card-item {
-        min-width: 280px;
+        min-width: 85%;
+    }
+
+    .contact-cards {
+        flex-direction: column;
     }
 }
 
-
-
+@media (min-width: 769px) {
+    .contact-cards {
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+    }
+}
