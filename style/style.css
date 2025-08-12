@@ -83,47 +83,37 @@ button:hover {
     width: 50px;
 }
 
-#about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 5%;
-    width: 90%;
-    margin: 30px auto 0;
-}
-
-.profile-picture {
-    width: 200px;
+.profile-picture{
+    display: inline-block;
+    width:250px;
     height: auto;
-    border-radius: 50%;
 }
-
-#profile-card {
+#profile-card{
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    border: 0;
+    display: inline-block;
+    width: 500px;
+    height: 50%;
+    border: 0px;
     border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 15px;
+    background-color: rgba(255,255,255,0.1);
+    padding: 10px 20px;
     backdrop-filter: blur(30px);
-    color: #FCFCFC;
+    align-items: center;
+    z-index: 10;
+    color:#FCFCFC;
 }
 
 .name {
     text-align: center;
     font-family: "Google Sans Code", monospace;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 800;
-    margin-bottom: 15px;
 }
-
-.profile-description {
+.profile-description{
     text-align: justify;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 350;
-    line-height: 1.5;
 }
 
 #projects {
@@ -131,7 +121,14 @@ button:hover {
     width: 100%;
     padding: 30px 0;
 }
-
+.projects-heading{
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
 .project-title {
     text-align: center;
     font-family: "Google Sans Code", monospace;
@@ -145,7 +142,7 @@ button:hover {
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
     margin: 0 auto 20px;
-    display: inline-block;
+    display: block;
 }
 
 .container .swiper {
@@ -351,6 +348,45 @@ footer {
 
     .contact-cards {
         flex-direction: column;
+    }
+    #about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    width: 90%;
+    margin: 30px auto 0;
+    }
+
+    .profile-picture {
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #profile-card {
+        box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+        width: 100%;
+        border: 0;
+        border-radius: 16px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 15px;
+        backdrop-filter: blur(30px);
+        color: #FCFCFC;
+    }
+
+    .name {
+        text-align: center;
+        font-family: "Google Sans Code", monospace;
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .profile-description {
+        text-align: justify;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 350;
+        line-height: 1.5;
     }
 }
 
