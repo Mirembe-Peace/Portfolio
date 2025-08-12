@@ -124,6 +124,7 @@ button:hover{
     border-radius: 8px;
     background-color: #210635;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) inset;
+    display: inline-block;
 }
 .container .swiper{
     width: 90%;
