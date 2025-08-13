@@ -55,3 +55,19 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+const youtubePlayerOverlay = document.querySelector(".youtube-player-overlay");
+const videoDisplay = document.querySelectorAll(".project-buttons.youtube");
+const YTPlayerPopup = document.querySelector(".youtube-player-popup iframe");
+
+videoDisplay.forEach(link => {
+    link.addEventListener("click", () => {
+        youtubePlayerOverlay.classList.add("active");
+        let videoLink = `https://replace_the_yt_link_and_remove_the_id_part/${link.dataset.link}`;
+        YTPlayerPopup.src = videoLink;
+    });
+});
+
+youtubePlayerOverlay.addEventListener("click", () => {
+    youtubePlayerOverlay.classList.remove("active");
+});
