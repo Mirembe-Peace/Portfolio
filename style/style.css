@@ -236,17 +236,20 @@ button:hover {
     background-color: #05085e;
 }
 .blog-container{
+    width: 90%;
+    height: auto;
     border: 0px;
     border-radius: 20px;
     padding: 0;
-    background-image: linear-gradient(to right #fcfcfc, #A0D4ED);
+    background-image: linear-gradient(to right, #fcfcfc, #A0D4ED);
     box-shadow: 0 0 5px 5px rgba(131, 130, 181, 0.2);
+    z-index: 10;
 }
 .blog-image{
     border: 0px;
     border-radius: 20px 0px 0px 10px;
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: auto;
 }
 .blog-description{
     padding: 15px;
@@ -255,6 +258,8 @@ button:hover {
     color:#FCFCFC;
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    width: 60%;
+    height: 90%;
 }
 .blog-title {
     font-size: 4rem;
