@@ -274,7 +274,7 @@ button:hover {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 20px;
-    box-shadow: 0 -30px 40px -30px rgba(255, 254, 254, 0.695) inset;
+    box-shadow: 0 -30px 40px -40px rgba(255, 254, 254, 0.695) inset;
 }
 .blog-buttons{
     margin-top: 20px;
