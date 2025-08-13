@@ -242,7 +242,7 @@ button:hover {
     border-radius: 20px;
     padding: 0;
     background-image: linear-gradient(to right, #fcfcfc, #A0D4ED);
-    box-shadow: 0 0 5px 5px rgba(131, 130, 181, 0.2);
+    box-shadow: 0 0 5px 5px rgba(7, 5, 79, 0.23);
     z-index: 10;
     display: flex;
     margin: 0 auto;
@@ -262,6 +262,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align:left;
 }
 .blog-title {
     font-size: 1.5rem;
@@ -273,11 +275,8 @@ button:hover {
     font-weight: 400;
     margin-bottom: 20px;
 }
-.blog-buttons-container { 
-    text-align: center;
-    padding: 15px;
-}
 .blog-buttons{
+    margin-top: 20px;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     font-weight: 600;
