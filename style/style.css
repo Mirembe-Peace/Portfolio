@@ -129,12 +129,14 @@ button:hover {
     font-weight: 350;
 }
 
-#projects {
+.sections {
     background-color: #be7acc83;
     width: 100%;
     padding: 30px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
-.projects-heading{
+.section-heading{
     margin: auto;
     width: 50%;
     border: 0px;
@@ -142,7 +144,7 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-.project-title {
+.section-title {
     text-align: center;
     font-family: "Google Sans Code", monospace;
     font-size: 18px;
@@ -233,7 +235,35 @@ button:hover {
 .card-item .project-buttons:hover {
     background-color: #05085e;
 }
-
+.blog-container{
+    border: 0px;
+    border-radius: 20px;
+    padding: 0;
+    background-image: linear-gradient(to right #fcfcfc, #A0D4ED);
+    box-shadow: 0 0 5px 5px rgba(131, 130, 181, 0.2);
+}
+.blog-image{
+    border: 0px;
+    border-radius: 20px 0px 0px 10px;
+    height: 100%;
+    width: auto;
+}
+.blog-description{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color:#FCFCFC;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.blog-title {
+    font-size: 4rem;
+    font-weight: 400;
+}
+.blog-words{
+    font-size: 2rem;
+    font-weight: 300;
+}
 footer {
     background-color: #420D4B;
     padding: 20px 5%;
