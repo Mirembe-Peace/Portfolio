@@ -133,7 +133,7 @@ button:hover {
     background-color: #be7acc83;
     width: 100%;
     padding: 30px 0;
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 .section-heading{
@@ -245,8 +245,8 @@ button:hover {
 .blog-image{
     border: 0px;
     border-radius: 20px 0px 0px 10px;
-    height: 100%;
-    width: auto;
+    height: 150px;
+    width: 150px;
 }
 .blog-description{
     padding: 15px;
