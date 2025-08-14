@@ -233,7 +233,7 @@ button:hover {
 }
 
 .card-item .project-buttons:hover {
-    background-color: #05085e;
+    background-color: #181b8a;
 }
 .blog-container{
     width: 90%;
@@ -291,7 +291,7 @@ button:hover {
     text-align: center;
 }
 .blog-buttons:hover{
-    background-color: #05085e;
+    background-color: #181b8a;
 }
 footer {
     background-color: #420D4B;
