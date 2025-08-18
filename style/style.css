@@ -109,7 +109,7 @@ button:hover {
     border: 0px;
     border-radius: 16px;
     background-color: rgba(255,255,255,0.1);
-    padding: 10px 20px;
+    padding: 20px 20px;
     backdrop-filter: blur(30px);
     align-items: center;
     z-index: 10;
@@ -118,12 +118,12 @@ button:hover {
 
 .cv-button{
     margin-top: 15px;
-    margin-left: 50%;
+    margin-left: 20%;
     margin-bottom: 15px;
     padding: 8px 16px;
     border: 0;
     border-radius: 16px;
-    background-image: linear-gradient(rgb(255, 0, 144), white);
+    background-color: rgb(255, 0, 144);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     color: #000000;
     font-family: "Montserrat", sans-serif;
