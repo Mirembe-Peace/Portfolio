@@ -465,6 +465,10 @@ footer {
         width: 150px;
     }
 
+    .cv-button{
+        margin-left: 30px;
+    }
+
     .card-item {
         min-width: 85%;
     }
