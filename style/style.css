@@ -117,11 +117,13 @@ button:hover {
 }
 
 .cv-button{
-    margin-top: 6px;
+    margin-top: 15px;
+    margin-left: 50%;
+    margin-bottom: 15px;
     padding: 8px 16px;
     border: 0;
     border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(248, 3, 126);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
