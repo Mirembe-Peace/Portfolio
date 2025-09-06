@@ -9,12 +9,13 @@
 //using the typescript built in feature called interface
 interface NavLinksProps {
   items: string[];
+  onSelectItem: (item: string) => void;
 }
 
-function NavLinks({items}: NavLinksProps) {
+function NavLinks({items, onSelectItem}: NavLinksProps) {
 
   //event handler
-  const handleClick = (event: React.MouseEvent<HTMLLIElement>) => console.log(event); 
+  //const handleClick = (event: React.MouseEvent<HTMLLIElement>) => console.log(event); 
 
   return (
     <ul className="list-group">
@@ -22,7 +23,9 @@ function NavLinks({items}: NavLinksProps) {
         <li 
           className = "item-list-group"
           key = {item}
-          onClick={handleClick} //pass a reference 
+          onClick= {() => {
+            onSelectItem(item);
+          }} //pass a reference 
          >{item}</li>))}
     </ul>
   );
