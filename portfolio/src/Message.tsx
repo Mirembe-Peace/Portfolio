@@ -4,4 +4,4 @@ function Message(){
 
 // export the message component so that we use it 
 //is imported in the App.tsx component
-export default Message;
+export default Message; 
