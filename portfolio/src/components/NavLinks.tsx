@@ -3,14 +3,15 @@
 // useState tells react that this component will cchange over time
 
 //import { useState } from "react";
+//how to make the component reusable , we use properties(props) these are inputs to our component,
+//just like calling a function and putting argument
 
-function NavLinks() {
-  const items = [
-    'Home',
-    'Projects',
-    'Blogs',
-    'My Notes'
-  ];
+//using the typescript built in feature called interface
+interface NavLinksProps {
+  items: string[];
+}
+
+function NavLinks({items}: NavLinksProps) {
 
   //event handler
   const handleClick = (event: React.MouseEvent<HTMLLIElement>) => console.log(event); 
