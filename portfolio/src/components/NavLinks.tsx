@@ -18,6 +18,7 @@ function NavLinks({items, onSelectItem}: NavLinksProps) {
   //const handleClick = (event: React.MouseEvent<HTMLLIElement>) => console.log(event); 
 
   return (
+    <>
     <ul className="list-group">
       {items.map((item) => (
         <li 
@@ -28,6 +29,10 @@ function NavLinks({items, onSelectItem}: NavLinksProps) {
           }} //pass a reference 
          >{item}</li>))}
     </ul>
+    <a className="btn btn-primary" 
+      href="footer" role="button"
+    >Contact Me</a>
+    </>
   );
 }
 

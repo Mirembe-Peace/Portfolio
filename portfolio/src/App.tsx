@@ -1,6 +1,4 @@
-//import the Message component 
-//import Message from './Message';
-
+import ButtonOne from './components/ButtonOne.tsx';
 import NavLinks from './components/NavLinks.tsx';
   const items = [
     'Home',
@@ -10,12 +8,17 @@ import NavLinks from './components/NavLinks.tsx';
   ];
 
   const handleSelectItem = (item: string) => { console.log(item);}
-
 // function to create a div to hold the message component
 function App() {
  // we can pass the list as attributes of an html element
-    return <div><NavLinks items={items} onSelectItem={handleSelectItem}/></div>
-}
+    return (
+        <div>
+            <NavLinks items={items} onSelectItem={handleSelectItem}/>
+
+            <ButtonOne>Blogs</ButtonOne>
+
+        </div>
+    ); }
 
 export default App;
 
