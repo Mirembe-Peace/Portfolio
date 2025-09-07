@@ -28,12 +28,25 @@ function ProfilePanel(){
                 </a>
             </div>
             <div className="contact-badge container-fluid">
-                <a className="navbar-brand" href="#">
-                    <img src="./src/assets/logo.png" alt="Logo" width="20" height="20" className="logo bg-white d-inline-block align-text-center fs-6"></img>
-                    Apiarie
+                <a className="navbar-brand" href="https://www.youtube.com/@apiarie_lab">
+                    <img src="./src/assets/youtube.png" alt="Logo" width="20" height="20" className="logo bg-white d-inline-block align-text-center fs-6"></img>
+                    @apiarie_lab
                 </a>
             </div>
             <hr></hr>
+            <p className="tech-stack">Tech Stack</p>
+            <div className="grid wrap">
+                <div><img src="./src/assets/python.png" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/javascript.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/java.png" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/html.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/css.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/c.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/mongo.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+                <div><img src="./src/assets/node.jpeg" className="img-fluid stack-image" alt="img"></img></div>
+            </div>
+            
+            
         </div>
     );
 }

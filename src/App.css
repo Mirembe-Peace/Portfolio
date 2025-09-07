@@ -89,6 +89,24 @@ nav.navbar{
     gap: 4px;
 }
 
+.tech-stack{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.grid.wrap{
+    display: flex;
+    flex-wrap: wrap;      /* allows wrapping if too many logos */
+    gap: 10px;   
+}
+
+.stack-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: white;
+}
+
 .content{
     margin-left: 5%;
 }
