@@ -14,11 +14,28 @@ main{
     gap: 2px;
 }
 
-.logo-text{
-    color: white;
-    font-size: 10px;
-    font-weight: 400px;
+nav.navbar{
+    background-color: #31487A;
 }
+
+.navbar-brand{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 8px;
+}
+
+.logo{
+    border-radius: 50%;
+}
+
+.brand-text{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+    align-content:center;
+}
+
 
 .profile{
     padding: 10px 10px 5px 30px;
@@ -28,13 +45,13 @@ main{
 }
 
 .profile-picture{
-    width:230px;
-    height:230px;
+    width:300px;
+    height:300px;
     border-radius: 50%;
 }
 
 .my-name{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 550;
     text-decoration: none;
     margin-top: 8px;
@@ -74,8 +91,6 @@ main{
 
 .content{
     margin-left: 5%;
-    background-color: rgba(255,255,255,0.1);
-    backdrop-filter: blur(30px);
 }
 
 .about-me{
@@ -93,6 +108,21 @@ main{
     text-decoration: none;
     margin-top: 8px;
 }
+
+.about-me-phrase{
+    color: white;
+}
+
+.section-title{
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
 
 .project-card{
     width: 100%;
@@ -129,7 +159,7 @@ main{
 }
 
 .project-title{
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
 
 }
