@@ -4,7 +4,7 @@ function BlogPanel(){
             <p className="section-title text-white">Blogs</p>
             <div className="card-container">
                     <div className="blog-card p-10   border border-secondary rounded g-col-12">
-                        <img src="/thoughts.webp" className="project-image  rounded" alt="project image"></img>
+                        <img loading = "lazy"src="/thoughts.webp" className="project-image  rounded" alt="project image"></img>
                         <div className="project-description">
                             <h1 className="blog-title text-white">3 Impossible things before breakfast:</h1>
                             <p className="project-info">

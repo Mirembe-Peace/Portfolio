@@ -1,9 +1,11 @@
-import AboutMe from './components/AboutMe.tsx';
-import ProjectsPanel from './components/ProjectsPanel.tsx';
-import ProfilePanel from './components/ProfilePanel.tsx';
-import BlogPanel from './components/BlogPanel.tsx';
+import { Suspense, lazy } from 'react';
+const AboutMe = lazy(() => import("./components/AboutMe.tsx"));
+const ProjectsPanel = lazy(() => import("./components/ProjectsPanel.tsx"));
+const ProfilePanel = lazy(() => import("./components/ProfilePanel.tsx"));
+const BlogPanel = lazy(() => import("./components/BlogPanel.tsx"));
 //import ButtonOne from './components/ButtonOne.tsx';
 import NavLinks from './components/NavLinks.tsx';
+
 
 // function to create a div to hold the message component
 function App() {
@@ -13,12 +15,16 @@ function App() {
             <NavLinks/>
             <main className="container">
                 <div className="profile">
+                    <Suspense fallback={<div className="p-10 bg-info bg-opacity-5"></div>}>
                     <ProfilePanel/>
+                    </Suspense>
                 </div>
                 <div className="content">
+                    <Suspense fallback={<div className="p-10 bg-info bg-opacity-5"></div>}>
                     <section id="home" ><AboutMe/></section>
                     <section id="projects-panel" ><ProjectsPanel/></section>
                     <section id="blogs"><BlogPanel/></section> 
+                    </Suspense>
                 </div>
             </main>
 
