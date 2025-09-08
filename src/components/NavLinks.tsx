@@ -21,7 +21,7 @@ function NavLinks() {
     <nav className="p-3 navbar mb-2 bg-primary-subtle text-primary-emphasis navbar-expand-lg ">
       <div className="container-fluid">
       <a className="navbar-brand" href="#">
-        <img src="./src/assets/logo.png" alt="Logo" width="35" height="35" className="logo bg-white d-inline-block align-text-bottom"></img>
+        <img src="./public/logo.png" alt="Logo" width="35" height="35" className="logo bg-white d-inline-block align-text-bottom"></img>
         <span className="brand-text">Apiarie</span> 
       </a>
       </div>
