@@ -3,11 +3,20 @@ function BlogPanel(){
         <div className="p-3 project-card grid" >
             <p className="section-title text-white">Blogs</p>
             <div className="card-container">
-                    <div className="project-cards p-10 bg-info bg-opacity-10 border border-secondary rounded g-col-12">
-                        <img src="/typing_game.webp" className="project-image img-fluid rounded" alt="project image"></img>
+                    <div className="blog-card p-10   border border-secondary rounded g-col-12">
+                        <img src="/thoughts.webp" className="project-image  rounded" alt="project image"></img>
                         <div className="project-description">
-                            <h1 className="project-title">Typing Game</h1>
-                            <p className="project-info">This game helps beginner developers learn how to type faster</p>
+                            <h1 className="blog-title text-white">3 Impossible things before breakfast:</h1>
+                            <p className="project-info">
+Every morning before breakfast, I think of three impossible things. And I ponder
+on them throughout the day, returning to them from time to time like one
+might turn a pebble over in the hand, feeling its familiar weight yet discovering
+new textures each time.<br></br><br></br>
+<strong>1. The Prime Number Pattern That is Hiding in Plain Sight</strong>
+Prime numbers are the atoms of arithmetic-simple in definition, elusive in
+pattern. The first of my impossible thoughts is this:</p>
+
+                            <a className="buttons btn btn-primary fw-bold" href="https://medium.com/@peace2de" role="button">Read More</a>
                         </div>
                     </div>
             </div>
