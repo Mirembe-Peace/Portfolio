@@ -11,7 +11,7 @@ function App() {
     return (
         <div>
             <NavLinks/>
-            <main>
+            <main className="container">
                 <div className="profile">
                     <ProfilePanel/>
                 </div>

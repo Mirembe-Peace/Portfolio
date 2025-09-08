@@ -8,6 +8,28 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: row; /* side by side on large screens */
+  gap: 1rem;
+}
+
+/* On mobile screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* stack vertically */
+  }
+
+  .content {
+    order: 2; /* ensure content goes below */
+  }
+
+  .profile {
+    order: 1;
+  }
+}
+
+
 main{
     display: flex;
     justify-content: space-between;
