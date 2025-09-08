@@ -31,16 +31,16 @@ function NavLinks() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link fw-medium text-white" aria-current="page" href="#">Home</a>
+              <a className="nav-link fw-medium text-white" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-medium text-white" href="#">Blogs</a>
+              <a className="nav-link fw-medium text-white" href="projects-panel">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-medium text-white" href="#">Projects</a>
+              <a className="nav-link fw-medium text-white" href="#blogs">Blogs</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link fw-medium text-white" href="#">Notes</a>
+              <a className="nav-link fw-medium text-white" href="https://github.com/Mirembe-Peace/NOTES">Notes</a>
             </li>
           </ul>
         </div>

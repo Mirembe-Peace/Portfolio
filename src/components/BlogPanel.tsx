@@ -14,9 +14,9 @@ might turn a pebble over in the hand, feeling its familiar weight yet discoverin
 new textures each time.<br></br><br></br>
 <strong>1. The Prime Number Pattern That is Hiding in Plain Sight</strong>
 Prime numbers are the atoms of arithmetic-simple in definition, elusive in
-pattern. The first of my impossible thoughts is this:</p>
+pattern. The first of my impossible thoughts is this, ........</p>
 
-                            <a className="buttons btn btn-primary fw-bold" href="https://medium.com/@peace2de" role="button">Read More</a>
+                            <a className="button btn btn-primary fw-bold" href="https://medium.com/@peace2de" role="button">Read More</a>
                         </div>
                     </div>
             </div>

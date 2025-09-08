@@ -16,11 +16,9 @@ function App() {
                     <ProfilePanel/>
                 </div>
                 <div className="content">
-                    <AboutMe/>
-
-                    <ProjectsPanel/>
-
-                    <BlogPanel/>
+                    <section id="home" ><AboutMe/></section>
+                    <section id="projects-panel" ><ProjectsPanel/></section>
+                    <section id="blogs"><BlogPanel/></section> 
                 </div>
             </main>
 
