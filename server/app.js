@@ -1,13 +1,12 @@
 // configuring the express server
-
 import path from "path";
-import {fieURLToPath} from "url";
+import { fileURLToPath } from "url";
 import mainRoutes from "./routes/main.js";
+import dotenv from "dotenv";
+import express from "express";
+import expressLayout from "express-ejs-layouts";
 
-require('dotenv').config();
-
-const express = require('express');
-const expressLayout = require("express-ejs-layouts");
+dotenv.config();
 
 const app = express();
 
