@@ -38,4 +38,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+app.get('/', (req, res) => {
+  res.render('index', ({title: 'Hey', message: 'Hello there!'}));
+});
+
 module.exports = app;
