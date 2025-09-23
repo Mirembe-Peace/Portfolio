@@ -5,7 +5,7 @@
 function ProfilePanel(){
     return(
         <div className="profile-panel">
-            <img loading = "lazy"className="profile-picture" src="/Profile picture.webp" alt="Profile Picture"></img>
+            <div className="profile-picture-container"><img loading = "lazy"className="profile-picture" src="/Profile picture.webp" alt="Profile Picture"></img></div>
             <p className="my-name">Mirembe Peace Mercy</p>
             <p className="hook">Full stack developer | Embedded systems Engineer</p>
             <div className ="cv-button p-1 bg-info bg-opacity-10 border border-secondary rounded"><a href="./assets/Resume_for_MIREMBE_PEACE_MERCY.pdf" download className="text-light">Download CV</a></div>
