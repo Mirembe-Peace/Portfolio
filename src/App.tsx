@@ -1,6 +1,5 @@
 import { Suspense, lazy } from 'react';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-const BlogPage = lazy(() => import("./components/BlogPage"));
 const AboutMe = lazy(() => import("./components/AboutMe.tsx"));
 const ProjectsPanel = lazy(() => import("./components/ProjectsPanel.tsx"));
 const ProfilePanel = lazy(() => import("./components/ProfilePanel.tsx"));
@@ -15,12 +14,7 @@ function App() {
     return (
         <div>
             
-            <Router>
                 <NavLinks/>
-                <Routes>
-                    <Route path="/" element={<BlogPage/>}/>
-                </Routes>
-            </Router>
             
             <main className="container">
                 <div className="profile">
