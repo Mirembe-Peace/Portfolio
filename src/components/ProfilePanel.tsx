@@ -16,7 +16,7 @@ function ProfilePanel(){
                 </a>
             </div>
             <div className="contact-badge container-fluid">
-                <a className="navbar-brand" href="www.linkedin.com/in/mirembe-peace-a76476325">
+                <a className="navbar-brand" href="https://www.linkedin.com/in/mirembe-peace-a76476325/">
                     <img loading = "lazy"src="/linkedin.webp" alt="Logo" width="20" height="20" className="logo bg-white d-inline-block align-text-center"></img>
                     in/mirembe-peace-a76476320
                 </a>
