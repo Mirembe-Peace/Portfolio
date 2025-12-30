@@ -32,9 +32,9 @@ function ProjectsPanel(){
                 <div className="project-cards p-10   border border-secondary rounded g-col-12">
                     <img loading = "lazy"src="/art_archive.webp" className="project-image  rounded" alt="project image"></img>
                     <div className="project-description">
-                        <h1 className="project-title text-primary">Virtual tour</h1>
+                        <h1 className="project-title text-primary">Immersive Virtual Tour</h1>
                         <p className="project-info">An interactive virtual tour of a cultural museum made with three js with Blender models</p>
-                        <a className="buttons btn btn-primary fw-bold" href="footer" role="button">Visit</a>
+                        <a className="buttons btn btn-primary fw-bold" href="https://virtual.pearlrhythmfoundation.org/" role="button">Visit</a>
                     </div>
                 </div>
             </div>
