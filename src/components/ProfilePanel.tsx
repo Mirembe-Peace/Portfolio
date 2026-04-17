@@ -8,7 +8,7 @@ function ProfilePanel(){
             <div className="profile-picture-container"><img loading = "lazy"className="profile-picture" src="/Profile picture.webp" alt="Profile Picture"></img></div>
             <p className="my-name">Mirembe Peace Mercy</p>
             <p className="hook">Full stack developer | Embedded systems Engineer</p>
-            <div className ="cv-button p-1 bg-info bg-opacity-10 border border-secondary rounded"><a href="./assets/Resume_for_MIREMBE_PEACE_MERCY.pdf" download className="text-light">Download CV</a></div>
+            <div className ="cv-button p-1 bg-info bg-opacity-10 border border-secondary rounded"><a href="/Mirembe_Peace_Mercy_Resume_Updated.pdf" download className="text-light">Download CV</a></div>
             <div className="contact-badge container-fluid">
                 <a className="navbar-brand" href="https://github.com/Mirembe-Peace ">
                     <img loading = "lazy"src="/github.webp" alt="Logo" width="20" height="20" className="logo bg-white d-inline-block align-text-center"></img>
